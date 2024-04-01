@@ -22,11 +22,13 @@ public class JdbcMain {
                 case 2:
                     dao.empInsert();
                     break;
-                default:
-                    System.out.println("메뉴를 잘 못 선택했습니다.");
+                case 3:
                 case 5:
                     System.out.println("프로그램을 종료 합니다.");
                     return;
+                default:
+                    System.out.println("메뉴를 잘 못 선택했습니다.");
+
 
             }
         }
